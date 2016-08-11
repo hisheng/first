@@ -5,7 +5,6 @@
  * Date: 2016/8/11
  * Time: 11:07
  */
-include 'vendor/autoload.php';
 
 define('BR','<br/>');
 define('DIR',__DIR__);//定义框架所在的目录  绝对路径地址
@@ -20,8 +19,11 @@ echo SYSTEM.BR;
 //print_r($_SERVER);
 
 //测试自动加载路由 Router类，成功
-$router = new First\System\Router($_SERVER);
-
-
+include 'vendor/autoload.php';
 
 //解析url路由  到  制定的  php文件，类，和方法
+$router = new First\System\Router;
+$router->urlParse($_SERVER);
+
+
+

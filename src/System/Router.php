@@ -12,7 +12,7 @@ class Router{
     public $controller;
     public $action;
 
-    public function __construct($server){
+    public function urlParse($server){
         //1
         $url = trim($server['REDIRECT_QUERY_STRING'],'/');
         $ca=explode('/',$url);
@@ -25,8 +25,8 @@ class Router{
 
 
         //4 执行类中的 某个方法
-        $className = 'First\\Application\\Controllers\\' . $this->controller.'Controller';
-        $class = $className;
+        $className =  'First\Application\Controllers\\'.$this->controller.'Controller';
+        $class = new $className;
         $class->{$this->action.'Action'}();
 
     }
