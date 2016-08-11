@@ -19,9 +19,9 @@ class Router{
 
         //2
         $this->controller = ucfirst($ca[0]);
-        echo $this->controller.BR;
+        //echo $this->controller.BR;
         $this->action = $ca[1];
-        echo $this->action.BR;
+        //echo $this->action.BR;
 
 
         //4 执行类中的 某个方法
