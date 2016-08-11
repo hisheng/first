@@ -7,5 +7,10 @@
         }
     ],
     "require": {
+    },
+    "autoload": {
+      "psr-4": {
+        "First\\": "src/" //composer dumpautoload -o
+      }
     }
 }
