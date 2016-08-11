@@ -7,6 +7,5 @@
         }
     ],
     "require": {
-        "dongnan/microrouter": "^0.1.2"
     }
 }
