@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^.*(\.css|\.js|\.gif|\.png|\.jpg|\.jpeg|\.apk|\.xml|\.ico|\.zip|\.exe)$ 
+RewriteRule ^(.*)$ index.php?/$1 [L]
