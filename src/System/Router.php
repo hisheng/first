@@ -15,14 +15,25 @@ class Router{
     public function urlParse($server){
         //1
         $url = trim($server['REDIRECT_QUERY_STRING'],'/');
+
         $ca = explode('/',$url);
 
-        //2
-        $this->controller = ucfirst($ca[0]);
-        //echo $this->controller.BR;
-        $this->action = $ca[1];
-        //echo $this->action.BR;
 
+        if(count($ca) < 2){
+            //当只有 类没有 函数的时候，或者连类都没有的时候
+            if(empty($ca[0])){
+                $this->controller = 'Welcome';
+            }else{
+                $this->controller = ucfirst($ca[0]);
+            }
+            $this->action = 'index';
+        }else{
+            //2
+            $this->controller = ucfirst($ca[0]);
+            //echo $this->controller.BR;
+            $this->action = $ca[1];
+            //echo $this->action.BR;
+        }
 
         //4 执行类中的 某个方法
 
