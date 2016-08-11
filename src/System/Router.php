@@ -15,7 +15,7 @@ class Router{
     public function urlParse($server){
         //1
         $url = trim($server['REDIRECT_QUERY_STRING'],'/');
-        $ca=explode('/',$url);
+        $ca = explode('/',$url);
 
         //2
         $this->controller = ucfirst($ca[0]);
@@ -25,9 +25,31 @@ class Router{
 
 
         //4 执行类中的 某个方法
+
         $className =  'First\Application\Controllers\\'.$this->controller.'Controller';
-        $class = new $className;
-        $class->{$this->action.'Action'}();
+
+        //检查这个类是否存在
+        if (class_exists($className)) {
+            $class = new $className;
+        }else{
+            header("HTTP/1.0 404 Not Found");
+            exit;
+        }
+
+        //检查这个类的方法是否存在
+        if(method_exists($class,$this->action.'Action')){
+            $class->{$this->action.'Action'}();
+        }else{
+            header("HTTP/1.0 404 Not Found");
+            exit;
+        }
+
+
+
+
+
+
+
 
     }
 
