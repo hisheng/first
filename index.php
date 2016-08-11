@@ -24,7 +24,7 @@ print_r($_SERVER);
 
 //自动加载类
 require SYSTEM.DIRECTORY_SEPARATOR.'Autoload.php';
-spl_autoload_register("system\Autoload::loading");
+spl_autoload_register('system\Autoload::loading');
 
 
 
