@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "ef8a2b3d57349d65de53a437b2935165",
+    "content-hash": "ac41d3cfdf57f9b725f483f759775b5a",
+    "packages": [
+        {
+            "name": "dongnan/microrouter",
+            "version": "0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dongnan/MicroRouter.git",
+                "reference": "4754222b07022f4c8e0e8444e05181dcda95e6fa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.phpcomposer.com/files/dongnan/MicroRouter/4754222b07022f4c8e0e8444e05181dcda95e6fa.zip",
+                "reference": "4754222b07022f4c8e0e8444e05181dcda95e6fa",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MicroRouter\\": "src/MicroRouter/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "dongnan",
+                    "email": "hidongnan@gmail.com"
+                }
+            ],
+            "description": "A mirco & powerful router library for PHP",
+            "homepage": "http://github.com/dongnan/MicroRouter/",
+            "keywords": [
+                "library",
+                "microrouter",
+                "router"
+            ],
+            "time": "2016-05-16 08:58:57"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

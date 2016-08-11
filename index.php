@@ -29,7 +29,7 @@ spl_autoload_register('system\Autoload::loading');
 
 
 
-//测试自动加载类，成功
+//测试自动加载路由 Router类，成功
 system\Router::test();
 
 

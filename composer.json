@@ -6,5 +6,7 @@
             "email": "465908774@qq.com"
         }
     ],
-    "require": {}
+    "require": {
+        "dongnan/microrouter": "^0.1.2"
+    }
 }
