@@ -49,7 +49,13 @@ class Router{
 
         //检查这个类的方法是否存在
         if(method_exists($class,$this->action.'Action')){
-            $class->{$this->action.'Action'}();
+            //$class->{$this->action.'Action'}();
+            call_user_func_array(
+                # 调用内部function
+                array($class,$this->action.'Action'),
+                # 传递参数
+                array_slice($ca, 2)
+            );
         }else{
             header("HTTP/1.0 404 Not Found");
             exit;
