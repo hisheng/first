@@ -5,7 +5,7 @@
  * Date: 2016/8/11
  * Time: 11:07
  */
-error_reporting(E_ERROR | E_WARNING | E_PARSE);
+define('ENVIRONMENT','test');
 
 define('BR','<br/>');
 define('DIR',__DIR__);//定义框架所在的目录  绝对路径地址
@@ -21,6 +21,9 @@ define('SYSTEM',DIR.DIRECTORY_SEPARATOR.'System');
 
 //测试自动加载路由 Router类，成功
 include 'vendor/autoload.php';
+
+//接入 错误报告 类型
+\First\System\Error::repoartError(ENVIRONMENT);
 
 //解析url路由  到  制定的  php文件，类，和方法
 $router = new First\System\Router;
