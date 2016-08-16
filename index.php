@@ -5,6 +5,7 @@
  * Date: 2016/8/11
  * Time: 11:07
  */
+error_reporting(E_ERROR | E_WARNING | E_PARSE);
 
 define('BR','<br/>');
 define('DIR',__DIR__);//定义框架所在的目录  绝对路径地址
