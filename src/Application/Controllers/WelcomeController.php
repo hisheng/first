@@ -8,6 +8,10 @@ class WelcomeController {
         echo 'welcome index';
     }
 
+    public function httpAction(){
+        \First\System\Http::test();
+    }
+
     // 支持 welcome/hello/3/4 形式的参数
     public function helloAction($hi = null,$h = null){
         //1
