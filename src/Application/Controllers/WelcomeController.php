@@ -30,6 +30,8 @@ class WelcomeController {
 
         //报告上面的错误级别
         //1 取得参数
+
+        print_r($_POST);
         $page = $_POST['page'];
 
         if(empty($page)){
@@ -38,6 +40,7 @@ class WelcomeController {
 
         //2 查询数据库
 
+        print_r($page);
     }
 
 }

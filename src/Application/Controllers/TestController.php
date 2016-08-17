@@ -35,4 +35,12 @@ class TestController{
         $users = $this->http->get($url.'users',$parm);
         var_dump($users);
     }
+
+    public function xxsAction(){
+        $url = $this->url;
+        $parm = array('page'=>'delete from users');
+
+        $users = $this->http->post($url.'users',$parm);
+        var_dump($users);
+    }
 }
