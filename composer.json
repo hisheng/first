@@ -7,10 +7,11 @@
         }
     ],
     "require": {
+        "phpunit/phpunit": "^4.8"
     },
     "autoload": {
       "psr-4": {
-        "First\\": "src/" //composer dumpautoload -o
+        "First\\": "src/"
       }
     }
 }
