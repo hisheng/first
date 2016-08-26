@@ -5,4 +5,4 @@
  * Date: 2016/8/26
  * Time: 15:20
  */
-require dirname(__DIR__).'/vemdor/autoload.php';
+require dirname(__DIR__).'/vendor/autoload.php';
