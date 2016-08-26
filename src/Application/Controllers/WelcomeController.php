@@ -15,7 +15,7 @@ class WelcomeController {
     // 支持 welcome/hello/3/4 形式的参数
     public function helloAction($hi = null,$h = null){
         //1
-        echo 'welcome hello'.$hi.$h.BR;
+        echo 'welcome hello'.$hi.$h;
 
         //2
         $userid = $_POST['userid'];
