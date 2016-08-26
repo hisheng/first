@@ -6,10 +6,11 @@
  * Time: 15:39
  */
 
+namespace Test\Application\Controllers;
 
 use \First\Application\Controllers\WelcomeController;
 
-class WelcomeTest extends PHPUnit_Framework_TestCase{
+class WelcomeTest extends \PHPUnit_Framework_TestCase{
     public $welcome;
     public function __construct(){
         $this->welcome = new WelcomeController();
