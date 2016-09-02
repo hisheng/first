@@ -7,8 +7,6 @@
  */
 namespace First\Application\Controllers;
 
-
-
 //extends 继承(final没法继承)  和  方法覆盖(parent::访问父级的方法)
 
 class ExtendController extends SimpleController{
