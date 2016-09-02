@@ -29,4 +29,10 @@ class ExtendController extends SimpleController{
         //parent::displayVarAction();可以访问到 varprivate
 
     }
+
+    public function funcAction(){
+        echo get_parent_class(); // 父类 First\Application\Controllers\SimpleController
+        var_dump(method_exists(get_parent_class(),'displayVarAction')); //检查类的方法是否存在 boolean true
+        echo get_class(); //First\Application\Controllers\ExtendController
+    }
 }

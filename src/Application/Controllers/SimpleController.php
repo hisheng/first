@@ -21,5 +21,6 @@ class SimpleController{
         echo $this->varprotected;
         echo $this->varprivate;
         echo get_class($this);
+
     }
 }
