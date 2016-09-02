@@ -28,8 +28,8 @@
       <file leaf-file-name="SimpleController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Application/Controllers/SimpleController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.2727275" vertical-offset="0" max-vertical-offset="624">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="-8.69697" vertical-offset="1" max-vertical-offset="720">
+              <caret line="12" column="58" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="58" />
               <folding>
                 <element signature="e#6#93#0#PHP" expanded="true" />
               </folding>
@@ -40,8 +40,8 @@
       <file leaf-file-name="ExtendController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Application/Controllers/ExtendController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6438152" vertical-offset="0" max-vertical-offset="671">
-              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.3919523" vertical-offset="145" max-vertical-offset="888">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
               <folding>
                 <element signature="e#6#93#0#PHP" expanded="true" />
               </folding>
@@ -100,8 +100,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="202" />
-    <option name="y" value="90" />
+    <option name="x" value="142" />
+    <option name="y" value="93" />
     <option name="width" value="1479" />
     <option name="height" value="864" />
   </component>
@@ -321,7 +321,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="202" y="90" width="1479" height="864" extended-state="0" />
+    <frame x="142" y="93" width="1479" height="864" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -769,8 +769,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Application/Controllers/SimpleController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.2727275" vertical-offset="0" max-vertical-offset="624">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="-8.69697" vertical-offset="1" max-vertical-offset="720">
+          <caret line="12" column="58" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="58" />
           <folding>
             <element signature="e#6#93#0#PHP" expanded="true" />
           </folding>
@@ -779,8 +779,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Application/Controllers/ExtendController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6438152" vertical-offset="0" max-vertical-offset="671">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.3919523" vertical-offset="145" max-vertical-offset="888">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
           <folding>
             <element signature="e#6#93#0#PHP" expanded="true" />
           </folding>

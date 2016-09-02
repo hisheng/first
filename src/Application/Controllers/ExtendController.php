@@ -11,12 +11,22 @@ namespace First\Application\Controllers;
 
 class ExtendController extends SimpleController{
 
+    public  $var = 'extend var';
+
     public function displayVarAction(){
         echo 'extend class';
+        //调用父类的方法
         parent::displayVarAction();
     }
 
     public function indexAction(){
+        echo $this->var; // 本类覆盖了
+        echo $this->varprotected;
+
+        //self 调用本类的方法
+        self::displayVarAction();
+        //$this->varprivate;mei没法访问
+        //parent::displayVarAction();可以访问到 varprivate
 
     }
 }
