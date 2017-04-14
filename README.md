@@ -1,5 +1,5 @@
 # first
-我的 first  php框架 
+我的 first  php框架 ---用laravel的思想 实现 一个 简单的 API 框架
 
 
 > 1. index.php  入口页
