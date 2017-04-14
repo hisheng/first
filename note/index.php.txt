@@ -1,3 +1,8 @@
+------
 生命周期
 1.加载autoload
 2.初始化IOC容器
+3.初始化 execute
+------
+
+Route 路由

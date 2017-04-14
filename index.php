@@ -24,7 +24,8 @@ define('SYSTEM',DIR.DIRECTORY_SEPARATOR.'System');
 //测试自动加载路由 Router类，成功
 include 'vendor/autoload.php';
 
-$app = new First\System\Application();
+$app = new First\System\Application(); // 容器一个缺点 就是  如果只想用一个 mvc  却 把其他的很多 ，都new 放进容器，就太影响效率了
+                                        //所以要做一个 非核心的 用到的时候再 new
 
 $app->execute(); // 初始化启动app相关的配置
 

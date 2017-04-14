@@ -7,7 +7,9 @@
  * ioc 容器
  */
 namespace First\System;
-abstract class Container implements \ArrayAccess
+use First\Contracts\Container\Container as ContainerContract;
+
+abstract class Container implements \ArrayAccess , ContainerContract
 {
     //写一个单例
     protected static $instance;
