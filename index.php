@@ -24,9 +24,7 @@ define('SYSTEM',DIR.DIRECTORY_SEPARATOR.'System');
 //测试自动加载路由 Router类，成功
 include 'vendor/autoload.php';
 
-
-
-
+$app = new First\System\Application();
 /*$redis = new Redis();
 $redis->connect('127.0.0.1',6379);
 $isShowAD=$redis->hGet('runad', 'isShowAD');
