@@ -25,18 +25,9 @@ define('SYSTEM',DIR.DIRECTORY_SEPARATOR.'System');
 include 'vendor/autoload.php';
 
 $app = new First\System\Application();
-/*$redis = new Redis();
-$redis->connect('127.0.0.1',6379);
-$isShowAD=$redis->hGet('runad', 'isShowAD');
-var_dump($isShowAD);*/
 
+$app->execute(); // 初始化启动app相关的配置
 
-//接入 错误报告 类型
-\First\System\Error::repoartError(ENVIRONMENT);
-
-//解析url路由  到  制定的  php文件，类，和方法
-$router = new First\System\Router;
-$router->urlParse($_SERVER);
 
 
 

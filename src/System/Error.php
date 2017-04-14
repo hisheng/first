@@ -10,7 +10,7 @@ namespace First\System;
 
 class Error{
 
-    public  static function repoartError($environment){
+    public  function repoartError($environment){
         switch ($environment) {
             case 'development':
                 error_reporting(-1);
