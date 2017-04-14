@@ -6,14 +6,14 @@ class WelcomeController {
 
     public function indexAction(){
 
-        $redis = new \Redis();
-        $redis->connect('127.0.0.1',6379);
-        $isShowAD=$redis->hGet('runad', 'isShowAD');
-        $userdetail = $redis->zRevRange('userdetail::4',0,-1);
-
-
-        var_dump($isShowAD);
-        var_dump($userdetail);
+//        $redis = new \Redis();
+//        $redis->connect('127.0.0.1',6379);
+//        $isShowAD=$redis->hGet('runad', 'isShowAD');
+//        $userdetail = $redis->zRevRange('userdetail::4',0,-1);
+//
+//
+//        var_dump($isShowAD);
+//        var_dump($userdetail);
 
 
         echo 'welcome index';
